@@ -14,6 +14,7 @@ Un mapa práctico para prepararse para **Summer Internships** y vacantes de **Ne
   * [Estrategia de Estudio](#estrategia-de-estudio)
   * [Rutas Recomendadas](#rutas-recomendadas)
 * [CV / Resume](#cv--resume)
+  * [Recursos Clave](#recursos-clave)
   * [Checklist ATS](#checklist-ats)
   * [Redacción de Proyectos con Impacto](#redacción-de-proyectos-con-impacto)
   * [LinkedIn](#linkedin)
@@ -76,8 +77,8 @@ En una entrevista técnica, empezar a programar sin hablar es el error más com�
 1. **Clarificar:** Haz preguntas sobre datos de entrada, restricciones y casos límite antes de escribir código (¿hay negativos?, ¿el array puede venir vacío?, ¿qué tamaño máximo tiene?).
 2. **Proponer (Brute Force):** Plantea de inmediato una primera solución directa que funcione, aunque sea $O(N^2)$. Esto valida que entendiste el problema, quita los nervios y establece una base para optimizar.
 3. **Optimizar:** Identifica el cuello de botella del enfoque previo y elige la estructura de datos o técnica adecuada (Hash Set, Two Pointers, ordenamiento) antes de tocar el teclado.
-4. **Codificar:** Escribe código limpio practicando think out loud. Narra cada decisión que tomas conforme programas para que el entrevistador siga tu proceso mental.
-5. **Probar:** Realiza un dry run manual con un caso de prueba, verifica casos extremos y concluye calculando la complejidad de tiempo y espacio en Big-O.
+4. **Codificar:** Escribe código limpio practicando *think out loud*. Narra cada decisión que tomas conforme programas para que el entrevistador siga tu proceso mental.
+5. **Probar:** Realiza un *dry run* manual con un caso de prueba, verifica casos extremos y concluye calculando la complejidad de tiempo y espacio en Big-O.
 
 > **Hints y colaboración:** El entrevistador evalúa cómo resuelves problemas en equipo. Si te ofrece un hint, escúchalo con atención y úsalo para ajustar tu solución; tomar una pista no te resta puntos.
 
@@ -140,7 +141,7 @@ Estructura cada viñeta siguiendo la fórmula: **Acción + Herramientas/Stack + 
 
 Un proyecto defendible es aquel que puedes desglosar en una conversación de 5 minutos explicando decisiones técnicas reales. No necesitas sistemas masivos; necesitas proyectos funcionales de los cuales conozcas cada componente.
 
-### Preguntas que debes poder responder sobre tu proyecto:
+### Preguntas que debes poder responder sobre tu proyecto
 
 * **El Problema:** Qué soluciona y para qué usuario está pensado.
 * **Arquitectura:** Cómo se comunican el frontend, el backend y la persistencia de datos.
