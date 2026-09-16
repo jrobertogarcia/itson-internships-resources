@@ -16,7 +16,7 @@ Un mapa práctico para prepararse para **Summer Internships** y vacantes de **Ne
 * [CV / Resume](#cv--resume)
   * [Checklist ATS](#checklist-ats)
   * [Redacción de Proyectos con Impacto](#redacción-de-proyectos-con-impacto)
-  * [LinkedIn Mínimo Viable](#linkedin-mínimo-viable)
+  * [LinkedIn](#linkedin)
 * [Proyectos Defendibles](#proyectos-defendibles)
 * [Inglés Técnico](#inglés-técnico)
 * [Applying](#applying)
@@ -30,16 +30,11 @@ Un mapa práctico para prepararse para **Summer Internships** y vacantes de **Ne
 * **Plática previa (Febrero):** [Ver en Canva](https://www.canva.com/design/DAG_lLAilYs/Syh6lLu23on0g6CnZc5APw/view?utm_content=DAG_lLAilYs&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h419278b57f)
 * **Comunidad:** [Entrar a Discord](https://discord.gg/cKxpt9vXUw)
 
-En Discord centralizamos el seguimiento y la preparación:
-* `#announcements` y `#resources`: Convocatorias, links fijos y diapositivas.
-* `#resume-review`: Retroalimentación asíncrona de CVs en PDF.
-* `#new-grad-internships`: Vacantes activas filtradas para estudiantes.
-* `#problem-of-the-week`, `#solutions` y `#hints`: Práctica y discusión de problemas semanales en equipo.
-* Salas de voz (`study-room`, `leetcode-room`, `interview-room`): Espacios para programar juntos o simular entrevistas.
+En Discord centralizamos el seguimiento y la preparación: avisos y convocatorias (`#announcements`, `#new-grad-internships`), retroalimentación de CVs (`#resume-review`), discusión de problemas semanales (`#problem-of-the-week`) y salas de voz para estudiar o simular entrevistas en equipo.
 
 ## Cómo Evalúa la Industria
 
-La universidad te forma como ingeniero de software (programación, bases de datos, arquitectura), pero las empresas de tecnología filtran mediante una prueba distinta: problemas algorítmicos contra reloj, claridad mental y comunicación técnica en inglés. **Ser un buen ingeniero no es lo mismo que ser bueno pasando entrevistas técnicas**; pasar estas evaluaciones es una habilidad mecánica específica que se entrena con práctica constante.
+La universidad te forma como ingeniero de software (programación, bases de datos, arquitectura), pero las empresas de tecnología filtran mediante una prueba distinta: problemas algorítmicos contra reloj, claridad mental y comunicación técnica en inglés. **Ser un buen ingeniero no es lo mismo que ser bueno pasando entrevistas técnicas**; pasar estas evaluaciones es una habilidad aparte que se entrena con práctica constante.
 
 ### Qué compone una oferta en tech
 
@@ -53,8 +48,8 @@ Las ofertas de industria suelen incluir beneficios que hacen viable mudarte sin 
 
 El error más común es esperar a graduarte para buscar trabajo. En empresas de tecnología globales, los procesos ocurren con un año de anticipación:
 
-* **Rolling basis:** Las vacantes de internships y New Grad abren típicamente entre agosto y octubre para ingresar el verano o año siguiente. Se evalúa conforme van llegando las aplicaciones; cuando los cupos se llenan, la vacante se cierra. No esperes a tener el título para aplicar.
-* **La meta del Return Offer:** El camino más predecible para entrar a una empresa de alto nivel no es aplicar directo a Full-Time, sino entrar por un Summer Internship y asegurar una oferta de retorno (return offer). Esto te permite regresar a la escuela a terminar materias con tu contrato firmado antes de graduarte.
+* **Rolling basis:** Las vacantes de internships y New Grad abren entre agosto y octubre para ingresar el verano o año siguiente. Se evalúa conforme van llegando las aplicaciones; cuando los cupos se llenan, la vacante se cierra.
+* **La meta del Return Offer:** El camino más predecible para entrar a una empresa de tecnología no es aplicar directo a Full-Time, sino entrar por un Summer Internship y asegurar una oferta de retorno (return offer). Esto te permite regresar a la escuela a terminar materias con tu contrato firmado antes de graduarte.
 * **Estatus de estudiante activo y extensión:** Para calificar a la gran mayoría de los Summer Internships, es obligatorio ser estudiante activo durante la pasantía y graduarte después de la misma. Como en ITSON no hay residencias profesionales obligatorias de semestre completo, una estrategia común es dejar una o dos materias pendientes para el siguiente semestre. Esto extiende tu ventana universitaria y te permite competir en internships, cuyo filtro técnico suele ser más accesible que el de New Grad.
 
 ## Preparación por Tiempos
@@ -72,7 +67,7 @@ En lugar de intentar cubrir todo en una semana y frustrarte, divide el esfuerzo 
 
 ### Largo plazo (Hábito continuo)
 * Práctica constante basada en reconocimiento de patrones.
-* Enviar aplicaciones de forma regular e iterar con la retroalimentación de los Online Assessments (OAs).
+* Enviar aplicaciones de forma regular y tomar los Online Assessments (OAs) como práctica bajo tiempo para medir tu nivel real.
 
 ## El Método: Los 5 Pasos de la Entrevista Técnica
 
@@ -92,7 +87,7 @@ LeetCode es un filtro estandarizado para evaluar lógica y velocidad bajo presi�
 
 ### Python para Entrevistas
 
-Recomendamos ampliamente resolver entrevistas en **Python**. Su sintaxis concisa y estructuras nativas (`set`, `dict`, `list`) liberan espacio mental para concentrarte de lleno en la lógica del problema, sin la sobrecarga de sintaxis de Java o C++.
+Nuestra recomendación es resolver entrevistas en **Python**. Su sintaxis concisa y estructuras nativas (`set`, `dict`, `list`) liberan espacio mental para concentrarte de lleno en la lógica del problema, sin la sobrecarga de sintaxis de Java o C++.
 
 * Video sugerido para dominar la sintaxis básica en entrevistas: [Python for Coding Interviews (NeetCode)](https://www.youtube.com/watch?v=0K_eZGS5NsU).
 
@@ -100,23 +95,16 @@ Recomendamos ampliamente resolver entrevistas en **Python**. Su sintaxis concisa
 
 * **La regla de los 15 minutos:** Intenta resolver el ejercicio por tu cuenta durante 15 minutos. Si pasado ese tiempo estás bloqueado, abre la solución o mira la explicación en video. Concéntrate en entender el *porqué* del patrón (por qué se eligió esa estructura de datos), no en memorizar líneas de código.
 * **Spaced repetition:** Vuelve a intentar el mismo problema 3 o 4 días después en un editor en blanco. La meta es poder programarlo y explicar el enfoque sin consultar la solución.
-* **Prioridad de tópicos:** Concéntrate primero en dominar estos temas fundamentales, que cubren la gran mayoría de las preguntas en entrevistas:
-  1. Arrays & Hashing
-  2. Two Pointers
-  3. Sliding Window
-  4. Stack
-  5. Binary Search
-  6. Linked List
-  7. Trees
+* **Tópicos esenciales:** Enfócate primero en dominar los temas con mayor frecuencia en entrevistas: Arrays & Hashing, Two Pointers, Sliding Window, Stack, Binary Search, Linked List y Trees.
 
 ### Rutas Recomendadas
 
 Elige la lista de práctica según la ventana de tiempo que tengas disponible:
 
-* **Ruta rápida (Menos de 2 meses o entrevistas próximas):** [Blind 75](https://neetcode.io/practice). Selección concentrada de 75 problemas que cubren los patrones indispensables con el menor volumen posible.
-* **Ruta estándar (3 a 6 meses de preparación):** [NeetCode 150](https://neetcode.io/practice). La ruta recomendada para preparar convocatorias con buena cobertura técnica.
-* **Ruta progresiva (Más de 6 meses o primeros semestres):** [NeetCode 250](https://neetcode.io/practice). Ruta completa para aprender algoritmos paso a paso sin prisas.
-* **Problemas por empresa:** Preguntas frecuentes de LeetCode organizadas por compañía para revisar antes de un proceso específico: [LeetCode Company Wise Problems](https://github.com/liquidslr/leetcode-company-wise-problems).
+* **Ruta rápida (Menos de 2 meses):** [Blind 75](https://neetcode.io/practice). Selección de 75 problemas clave que cubren los patrones indispensables.
+* **Ruta estándar (3 a 6 meses):** [NeetCode 150](https://neetcode.io/practice). La ruta recomendada para preparar convocatorias con cobertura técnica balanceada.
+* **Ruta progresiva (Más de 6 meses o primeros semestres):** [NeetCode 250](https://neetcode.io/practice). Currículo amplio para aprender algoritmos paso a paso sin prisas.
+* **Problemas por empresa:** Preguntas frecuentes organizadas por compañía para revisar antes de un proceso específico: [LeetCode Company Wise Problems](https://github.com/liquidslr/leetcode-company-wise-problems).
 
 ## CV / Resume
 
@@ -142,20 +130,20 @@ Estructura cada viñeta siguiendo la fórmula: **Acción + Herramientas/Stack + 
 * *Evita:* "Hice una aplicación web con React y Python."
 * *Prefiere:* "Desarrollé una plataforma web con React y FastAPI, optimizando el tiempo de respuesta del backend en un 35%."
 
-### LinkedIn Mínimo Viable
+### LinkedIn
 
 * Titular profesional claro: "Software Engineering Student | Backend".
 * URL personalizada limpia (`linkedin.com/in/tu-nombre`).
-* Sección "Acerca de" de dos párrafos explicando tu stack tecnológico, qué estás construyendo y que buscas activamente pasantías o roles de tiempo completo.
+* Sección "Acerca de" de dos párrafos explicando tu stack tecnológico, qué proyectos estás desarrollando y qué tipo de roles buscas.
 
 ## Proyectos Defendibles
 
-Un proyecto defendible es aquel que puedes desglosar en una conversación de 5 minutos explicando decisiones técnicas reales. No necesitas sistemas masivos; necesitas proyectos que no se rompan y de los cuales conozcas cada componente.
+Un proyecto defendible es aquel que puedes desglosar en una conversación de 5 minutos explicando decisiones técnicas reales. No necesitas sistemas masivos; necesitas proyectos funcionales de los cuales conozcas cada componente.
 
 ### Preguntas que debes poder responder sobre tu proyecto:
 
 * **El Problema:** Qué soluciona y para qué usuario está pensado.
-* **Arquitectura:** Cómo se comunican el frontend, el backend y la base de datos.
+* **Arquitectura:** Cómo se comunican el frontend, el backend y la persistencia de datos.
 * **Decisiones Técnicas:**
   * Por qué elegiste esa base de datos (SQL vs. NoSQL) y cómo estructuraste el esquema.
   * Diseño de endpoints (REST, autenticación, paginación, manejo de errores).
@@ -167,14 +155,8 @@ Un proyecto defendible es aquel que puedes desglosar en una conversación de 5 m
 
 No necesitas acento nativo ni vocabulario rebuscado. Lo indispensable es poder explicar tu razonamiento técnico de forma estructurada (*"I initialized a hash map to track the indices because dictionary lookup is constant time"*).
 
-### Herramientas Gratuitas de Práctica
-
-* [Episoden](https://www.episoden.com/): Sesiones cortas de conversación 1:1 con personas de todo el mundo para perder el miedo a hablar.
-* [Sesame](https://app.sesame.com/): Práctica de conversación fluida con asistentes de voz con IA.
-
-### Hábito Mínimo
-
-* Practica hablar en voz alta de 10 a 15 minutos diarios explicando tus soluciones de código en inglés conforme programas.
+* **Herramientas gratuitas:** [Episoden](https://www.episoden.com/) (conversaciones 1:1 para perder el miedo a hablar) y [Sesame](https://app.sesame.com/) (práctica de conversación con asistentes de voz con IA).
+* **Hábito mínimo:** Practica hablar en voz alta de 10 a 15 minutos diarios explicando tus soluciones de código en inglés conforme programas.
 
 ## Applying
 
@@ -203,14 +185,8 @@ No. A las empresas de tecnología globales no les importa tu promedio, kárdex n
 ### ¿Qué pasa si me va mal en una entrevista o en un OA? ¿Me vetan?
 Para nada. No existen listas negras. Solo hay un periodo de espera (cooldown) de 6 a 12 meses según la empresa. En el siguiente ciclo de contratación puedes volver a aplicar desde cero sin penalización.
 
-### ¿Las entrevistas de LeetCode reflejan el trabajo del día a día?
-No. En el trabajo construyes arquitectura, pruebas y trabajas en equipo. LeetCode es simplemente una prueba estandarizada de filtro.
-
 ### ¿Cuántos problemas tengo que resolver para estar listo?
 No hay una cifra fija. Es mucho mejor dominar 40 o 50 problemas comprendiendo bien el patrón, que memorizar 200 que no sabrás adaptar si te cambian un detalle.
-
-### ¿Qué hago si me quedo en blanco frente a la pantalla?
-Aplica la regla de los 15 minutos: piensa activamente, si no hay progreso abre la solución, entiende el enfoque y vuelve a programarlo días después por tu cuenta.
 
 ### ¿Sirven los proyectos escolares o tienen que ser personales?
 Los proyectos de clase sirven perfectamente. Lo importante no es si lo hiciste para una materia o por tu cuenta, sino que esté terminado, funcione y puedas defender las decisiones técnicas de cómo lo construiste.
