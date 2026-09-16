@@ -1,215 +1,235 @@
-# ITSON Internships Resources
+# ITSON Tech Career & Interview Resources
 
-Un mapa práctico para prepararse para **internships** en empresas grandes / Big Tech: CV, projects, inglés, LeetCode/DSA y applying.
+Un mapa práctico para prepararse para **Summer Internships** y vacantes de **New Grad** en empresas de tecnología y Big Tech: CV, proyectos defendibles, inglés técnico, preparación en LeetCode y estrategia de aplicación.
 
----
+## Tabla de Contenidos
 
-## Table of contents
-- [Slides](#slides)
-- [La vara de Big Tech (contexto)](#la-vara-de-big-tech-contexto)
-- [Roadmap por capas](#roadmap-por-capas)
-- [CV / Resume](#cv--resume)
-- [Projects defendibles](#projects-defendibles)
-- [Inglés (speaking)](#inglés-speaking)
-- [LeetCode / DSA (core)](#leetcode--dsa-core)
-- [Applying (desde ya)](#applying-desde-ya)
-- [Behavioral (cuando llegue el momento)](#behavioral-cuando-llegue-el-momento)
-- [FAQ](#faq)
-- [Contributing (PRs welcome)](#contributing-prs-welcome)
+* [Diapositivas y Comunidad](#diapositivas-y-comunidad)
+* [Cómo Evalúa la Industria](#cómo-evalúa-la-industria)
+* [Estrategia de Calendario y Ventana Universitaria](#estrategia-de-calendario-y-ventana-universitaria)
+* [Preparación por Tiempos](#preparación-por-tiempos)
+* [El Método: Los 5 Pasos de la Entrevista Técnica](#el-método-los-5-pasos-de-la-entrevista-técnica)
+* [LeetCode y Algoritmos](#leetcode-y-algoritmos)
+  * [Python para Entrevistas](#python-para-entrevistas)
+  * [Estrategia de Estudio](#estrategia-de-estudio)
+  * [Rutas Recomendadas](#rutas-recomendadas)
+* [CV / Resume](#cv--resume)
+  * [Checklist ATS](#checklist-ats)
+  * [Redacción de Proyectos con Impacto](#redacción-de-proyectos-con-impacto)
+  * [LinkedIn Mínimo Viable](#linkedin-mínimo-viable)
+* [Proyectos Defendibles](#proyectos-defendibles)
+* [Inglés Técnico](#inglés-técnico)
+* [Applying](#applying)
+* [Behavioral](#behavioral)
+* [FAQ](#faq)
+* [Mentores y Soporte](#mentores-y-soporte)
 
----
+## Diapositivas y Comunidad
 
-## Slides
-Presentación (Canva):
-https://www.canva.com/design/DAG_lLAilYs/Syh6lLu23on0g6CnZc5APw/view?utm_content=DAG_lLAilYs&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h419278b57f
+* **Diapositivas del taller:** [Ver en Google Slides](https://docs.google.com/presentation/d/1TE4vPEolC2-H3QZC3cqKkmoB6YUngX9xj6kZekZoPFk/edit?usp=sharing)
+* **Plática previa (Febrero):** [Ver en Canva](https://www.canva.com/design/DAG_lLAilYs/Syh6lLu23on0g6CnZc5APw/view?utm_content=DAG_lLAilYs&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h419278b57f)
+* **Comunidad:** [Entrar a Discord](https://discord.gg/cKxpt9vXUw)
 
----
+En Discord centralizamos el seguimiento y la preparación:
+* `#announcements` y `#resources`: Convocatorias, links fijos y diapositivas.
+* `#resume-review`: Retroalimentación asíncrona de CVs en PDF.
+* `#new-grad-internships`: Vacantes activas filtradas para estudiantes.
+* `#problem-of-the-week`, `#solutions` y `#hints`: Práctica y discusión de problemas semanales en equipo.
+* Salas de voz (`study-room`, `leetcode-room`, `interview-room`): Espacios para programar juntos o simular entrevistas.
 
-## La vara de Big Tech (contexto)
-ITSON te prepara para ser SWE (fundamentos, proyectos, arquitectura). Big Tech te evalúa con otra “vara”: entrevistas tipo LeetCode/Codewars, claridad mental bajo presión y comunicación en inglés.
+## Cómo Evalúa la Industria
 
-No es que la formación sea insuficiente, sino que para competir por estas vacantes hay que entrenar específicamente para su forma de evaluar, **ser un buen ingeniero no es lo mismo que ser bueno para pasar entrevistas.**
+La universidad te forma como ingeniero de software (programación, bases de datos, arquitectura), pero las empresas de tecnología filtran mediante una prueba distinta: problemas algorítmicos contra reloj, claridad mental y comunicación técnica en inglés. **Ser un buen ingeniero no es lo mismo que ser bueno pasando entrevistas técnicas**; pasar estas evaluaciones es una habilidad mecánica específica que se entrena con práctica constante.
 
----
+### Qué compone una oferta en tech
 
-## Roadmap por capas
-En vez de “calendario perfecto”, piensa en capas que puedes ir apilando.
+Las ofertas de industria suelen incluir beneficios que hacen viable mudarte sin poner de tu bolsa:
 
-### Capa rápida (días–semanas)
-- CV y LinkedIn limpios (para poder aplicar).
-- Inglés funcional (poder explicar tu solución).
+* **Summer Internships:** Prácticas 100% remuneradas con salario competitivo, vuelos de ida y vuelta, corporate housing (o housing stipend mensual) y laptop de trabajo asignada.
+* **New Grad (Full-Time):** Sueldos de entrada competitivos, seguro de gastos médicos mayores, fondo de ahorro, bonos de reubicación y equity (acciones líquidas de la empresa).
+* **Datos de referencia:** Para consultar salarios verificados en la industria dentro de México, revisa [Levels.fyi México](https://www.levels.fyi/t/software-engineer/locations/mexico).
 
-### Capa mediana (semanas)
-- 1–2 projects defendibles (no ocupas algo super complejo, solo bien contados y terminados).
+## Estrategia de Calendario y Ventana Universitaria
 
-### Capa larga (meses)
-- LeetCode + DSA fundamentals (patrones).
-- Aplicar temprano e iterar con el feedback real (OAs/entrevistas).
+El error más común es esperar a graduarte para buscar trabajo. En empresas de tecnología globales, los procesos ocurren con un año de anticipación:
 
-> Si sientes que “todo a la vez” es abrumador, está bien: empieza con la primera capa y agrega otra cuando tengas ritmo. No trates de cambiar todo de la noche a la mañana.
+* **Rolling basis:** Las vacantes de internships y New Grad abren típicamente entre agosto y octubre para ingresar el verano o año siguiente. Se evalúa conforme van llegando las aplicaciones; cuando los cupos se llenan, la vacante se cierra. No esperes a tener el título para aplicar.
+* **La meta del Return Offer:** El camino más predecible para entrar a una empresa de alto nivel no es aplicar directo a Full-Time, sino entrar por un Summer Internship y asegurar una oferta de retorno (return offer). Esto te permite regresar a la escuela a terminar materias con tu contrato firmado antes de graduarte.
+* **Estatus de estudiante activo y extensión:** Para calificar a la gran mayoría de los Summer Internships, es obligatorio ser estudiante activo durante la pasantía y graduarte después de la misma. Como en ITSON no hay residencias profesionales obligatorias de semestre completo, una estrategia común es dejar una o dos materias pendientes para el siguiente semestre. Esto extiende tu ventana universitaria y te permite competir en internships, cuyo filtro técnico suele ser más accesible que el de New Grad.
 
----
+## Preparación por Tiempos
+
+En lugar de intentar cubrir todo en una semana y frustrarte, divide el esfuerzo según lo que toma construir cada parte:
+
+### Corto plazo (Días a semanas)
+* CV de 1 página en formato estándar y en inglés.
+* Perfil de LinkedIn limpio con roles claros y enlaces a proyectos.
+* Inglés funcional para explicar tu razonamiento técnico sin congelarte.
+
+### Mediano plazo (Semanas a meses)
+* 1 a 2 proyectos defendibles con decisiones de diseño justificadas.
+* Dominar los fundamentos de LeetCode: Arrays & Hashing, Two Pointers y Sliding Window.
+
+### Largo plazo (Hábito continuo)
+* Práctica constante basada en reconocimiento de patrones.
+* Enviar aplicaciones de forma regular e iterar con la retroalimentación de los Online Assessments (OAs).
+
+## El Método: Los 5 Pasos de la Entrevista Técnica
+
+En una entrevista técnica, empezar a programar sin hablar es el error más común. Lo que buscan evaluar es cómo piensas a través de estos pasos:
+
+1. **Clarificar:** Haz preguntas sobre datos de entrada, restricciones y casos límite antes de escribir código (¿hay negativos?, ¿el array puede venir vacío?, ¿qué tamaño máximo tiene?).
+2. **Proponer (Brute Force):** Plantea de inmediato una primera solución directa que funcione, aunque sea $O(N^2)$. Esto valida que entendiste el problema, quita los nervios y establece una base para optimizar.
+3. **Optimizar:** Identifica el cuello de botella del enfoque previo y elige la estructura de datos o técnica adecuada (Hash Set, Two Pointers, ordenamiento) antes de tocar el teclado.
+4. **Codificar:** Escribe código limpio practicando think out loud. Narra cada decisión que tomas conforme programas para que el entrevistador siga tu proceso mental.
+5. **Probar:** Realiza un dry run manual con un caso de prueba, verifica casos extremos y concluye calculando la complejidad de tiempo y espacio en Big-O.
+
+> **Hints y colaboración:** El entrevistador evalúa cómo resuelves problemas en equipo. Si te ofrece un hint, escúchalo con atención y úsalo para ajustar tu solución; tomar una pista no te resta puntos.
+
+## LeetCode y Algoritmos
+
+LeetCode es un filtro estandarizado para evaluar lógica y velocidad bajo presión, no el trabajo diario. Se supera aprendiendo patrones reutilizables.
+
+### Python para Entrevistas
+
+Recomendamos ampliamente resolver entrevistas en **Python**. Su sintaxis concisa y estructuras nativas (`set`, `dict`, `list`) liberan espacio mental para concentrarte de lleno en la lógica del problema, sin la sobrecarga de sintaxis de Java o C++.
+
+* Video sugerido para dominar la sintaxis básica en entrevistas: [Python for Coding Interviews (NeetCode)](https://www.youtube.com/watch?v=0K_eZGS5NsU).
+
+### Estrategia de Estudio
+
+* **La regla de los 15 minutos:** Intenta resolver el ejercicio por tu cuenta durante 15 minutos. Si pasado ese tiempo estás bloqueado, abre la solución o mira la explicación en video. Concéntrate en entender el *porqué* del patrón (por qué se eligió esa estructura de datos), no en memorizar líneas de código.
+* **Spaced repetition:** Vuelve a intentar el mismo problema 3 o 4 días después en un editor en blanco. La meta es poder programarlo y explicar el enfoque sin consultar la solución.
+* **Prioridad de tópicos:** Concéntrate primero en dominar estos temas fundamentales, que cubren la gran mayoría de las preguntas en entrevistas:
+  1. Arrays & Hashing
+  2. Two Pointers
+  3. Sliding Window
+  4. Stack
+  5. Binary Search
+  6. Linked List
+  7. Trees
+
+### Rutas Recomendadas
+
+Elige la lista de práctica según la ventana de tiempo que tengas disponible:
+
+* **Ruta rápida (Menos de 2 meses o entrevistas próximas):** [Blind 75](https://neetcode.io/practice). Selección concentrada de 75 problemas que cubren los patrones indispensables con el menor volumen posible.
+* **Ruta estándar (3 a 6 meses de preparación):** [NeetCode 150](https://neetcode.io/practice). La ruta recomendada para preparar convocatorias con buena cobertura técnica.
+* **Ruta progresiva (Más de 6 meses o primeros semestres):** [NeetCode 250](https://neetcode.io/practice). Ruta completa para aprender algoritmos paso a paso sin prisas.
+* **Problemas por empresa:** Preguntas frecuentes de LeetCode organizadas por compañía para revisar antes de un proceso específico: [LeetCode Company Wise Problems](https://github.com/liquidslr/leetcode-company-wise-problems).
 
 ## CV / Resume
-### Recursos (los buenos “default”)
-- r/EngineeringResumes Wiki: https://www.reddit.com/r/EngineeringResumes/wiki/index/  
-- Resume templates (wiki): https://www.reddit.com/r/EngineeringResumes/wiki/resumetemplates/ 
-- Jake's resume template: https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs
 
-### Overleaf & LaTeX para hacer un CV
-A diferencia de Word o Canva, Overleaf utiliza LaTeX, lo que garantiza que el formato sea consistente y, lo más importante, compatible con los sistemas ATS (Applicant Tracking Systems) que utilizan las empresas para filtrar CVs automáticamente.
+Los sistemas de filtrado inicial (ATS) y los reclutadores descartan CVs en segundos si el formato es confuso o tiene adornos innecesarios.
 
-> Tip: Si no sabes LaTeX, no te preocupes; solo abre algunas de las anteriores plantillas y dale a “Open as Template” y edita el texto que aparece entre las llaves { }.
+### Recursos Clave
 
-### Checklist de CV (estudiante / internship-ready)
-- 1 página, formato limpio (sin “diseño de Canva”, sin barras de skills).
-- Bullets con: verbo + qué hiciste + impacto (ideal: números, latencia, % mejora, usuarios, etc.).
-- Projects como experiencia principal: “qué resolví”, “cómo lo construí”, “qué aprendí”.
-- Links funcionando: GitHub, LinkedIn (y demo si aplica).
-- Todo esto y más viene en el wiki de r/EngineeringResumes.
+* **Plantilla recomendada:** [Jake's Resume en Overleaf](https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs). Haz clic en *Open as Template* y edita directamente el texto entre llaves `{}`. LaTeX garantiza una salida tipográfica limpia y compatible con ATS.
+* **Guía de referencia:** [r/EngineeringResumes Wiki](https://www.reddit.com/r/EngineeringResumes/wiki/index/).
 
-### LinkedIn (mínimo viable)
-- Foto decente.
-- Headline claro: “Software Engineering Student | Backend” (ejemplo).
-- URL personalizada (ej: `linkedin.com/in/tu-nombre`).
-- About / Resumen: 2-3 párrafos sobre tu stack, qué estás aprendiendo y que buscas activamente internships.
-- Link a tu GitHub y a tu portafolio (si tienes).
+### Checklist ATS
 
----
+* **Exactamente 1 página** redactada en **inglés**.
+* Formato en blanco y negro sin diseños de Canva, iconos ni columnas complejas.
+* Sin fotografía, sin edad, sin estado civil ni dirección postal completa.
+* Sin barras de porcentaje (nada de "Python 80%").
+* Enlaces directos y funcionales a tu perfil de LinkedIn y repositorios en GitHub.
 
-## Projects defendibles
-Un proyecto defendible es uno que puedes explicar **en 5 minutos** con decisiones técnicas reales.
+### Redacción de Proyectos con Impacto
 
-### Checklist “defendible en entrevista”
-- Problema: ¿qué resuelve? (real o simulado, pero claro).
-- Usuario/cliente: ¿quién lo usaría?
-- Arquitectura (simple): ¿cómo se separa backend/frontend/db?
-- Decisiones técnicas (elige 2–3):
-  - Persistencia: ¿por qué esa DB? ¿qué esquema?
-  - APIs: REST vs GraphQL, versionado, auth.
-  - Performance: caching, paginación, colas, etc.
-  - Tradeoffs: ¿qué sacrificaste por tiempo/alcance?
-- Resultados: qué mejoró / qué lograron.
-- Limitaciones: qué falta y qué harías después.
+Estructura cada viñeta siguiendo la fórmula: **Acción + Herramientas/Stack + Impacto medible**.
 
-### Nota sobre “tech demandada”
-Procura usar stacks comunes en internships (ej: backend con Python/Node/Java + API + DB). Tecnologías menos usadas no es que sean malas, pero pueden bajar tu probabilidad de conseguir una entrevista.
+* *Evita:* "Hice una aplicación web con React y Python."
+* *Prefiere:* "Desarrollé una plataforma web con React y FastAPI, optimizando el tiempo de respuesta del backend en un 35%."
 
----
+### LinkedIn Mínimo Viable
 
-## Inglés (speaking)
-No necesitas sonar nativo; necesitas explicar tu pensamiento (“I used a hash map because…”) y comunicarte sin congelarte.
+* Titular profesional claro: "Software Engineering Student | Backend".
+* URL personalizada limpia (`linkedin.com/in/tu-nombre`).
+* Sección "Acerca de" de dos párrafos explicando tu stack tecnológico, qué estás construyendo y que buscas activamente pasantías o roles de tiempo completo.
 
-### Herramientas (práctica real)
-- Episoden (pláticas con personas 1:1): https://www.episoden.com/ (también hay apps para iOS y Android pero la web funciona mejor)
-- Sesame (voice / AI speaking): https://app.sesame.com/
+## Proyectos Defendibles
 
-### Rutina mínima
-- 10–20 min speaking, al menos 5 días por semana.
-- Enfócate en: explicar soluciones, pedir aclaraciones, y narrar tu approach.
+Un proyecto defendible es aquel que puedes desglosar en una conversación de 5 minutos explicando decisiones técnicas reales. No necesitas sistemas masivos; necesitas proyectos que no se rompan y de los cuales conozcas cada componente.
 
----
+### Preguntas que debes poder responder sobre tu proyecto:
 
-## LeetCode / DSA (core)
-### Primero: ¿qué es LeetCode en este contexto?
-LeetCode **no** es el trabajo. Es un filtro común para internships: patrones + lógica + comunicación bajo tiempo.
+* **El Problema:** Qué soluciona y para qué usuario está pensado.
+* **Arquitectura:** Cómo se comunican el frontend, el backend y la base de datos.
+* **Decisiones Técnicas:**
+  * Por qué elegiste esa base de datos (SQL vs. NoSQL) y cómo estructuraste el esquema.
+  * Diseño de endpoints (REST, autenticación, paginación, manejo de errores).
+  * Rendimiento (caching, indexación).
+  * Trade-offs: qué decisiones técnicas sacrificaste por tiempo o alcance.
+* **Limitaciones:** Qué fallas tiene actualmente y qué cambiarías si tuvieras más tiempo para desarrollarlo.
 
-### Qué estudiar (en qué topics enfocarte primero)
-Recomendación: NeetCode 250 (god).  
-https://neetcode.io/practice/practice/neetcode250
+## Inglés Técnico
 
-Prioridad (fundamentals first):
-- Arrays & Hashing
-- Two Pointers
-- Sliding Window
-- Stack
-- Binary Search
-- Linked List
-- Trees
+No necesitas acento nativo ni vocabulario rebuscado. Lo indispensable es poder explicar tu razonamiento técnico de forma estructurada (*"I initialized a hash map to track the indices because dictionary lookup is constant time"*).
 
-> Estos temas son los que aparecen en el 95% de las entrevistas para internships. Los demás tópicos suelen aparecer en puestos más avanzados como new grad.
+### Herramientas Gratuitas de Práctica
 
-### Cómo estudiar
-La clave es aprender *patrones*, no coleccionar solves.
+* [Episoden](https://www.episoden.com/): Sesiones cortas de conversación 1:1 con personas de todo el mundo para perder el miedo a hablar.
+* [Sesame](https://app.sesame.com/): Práctica de conversación fluida con asistentes de voz con IA.
 
-**Regla para principiantes**
-- Intenta 15 min.
-- Si no avanzas, ve solución/video, pero **entiende el patrón** (no copies el código).  
+### Hábito Mínimo
 
-**Spaced repetition**
-- Reintenta el mismo problema días después procurando no ver la solución si es posible.
-- Repitelo hasta que puedas resolverlo sin ver la solución y te sientas cómodo explicando el approach.
+* Practica hablar en voz alta de 10 a 15 minutos diarios explicando tus soluciones de código en inglés conforme programas.
 
-### Python para entrevistas
-Python recomendado por velocidad/claridad para entrevistas. Cualquier otro lenguaje como Java o C++ te quitará espacio mental para enfocarte en el problema. Vídeo recomendado para empezar rápido con Python si no tienes experiencia en el lenguaje:
+## Applying
 
-- “Python for Coding Interviews” (NeetCode, ~25 min): https://www.youtube.com/watch?v=0K_eZGS5NsU
+La idea no es mandar cientos de solicitudes en un solo día, sino aplicar de forma constante conforme abran vacantes:
 
-### Repositorio de preguntas para entrevistas
-Este repositorio contiene una lista de las preguntas de LeetCode más frecuentes, divididas por empresa. Antes de una entrevista técnica, busca si la empresa se encuentra en esta lista y aprovecha para resolver sus respectivos problemas. 
+* **Dónde buscar:** LinkedIn Jobs y directamente en las páginas de carreras de las empresas (Careers Pages).
+* **Te van a ghostear (y es normal):** En la mayoría de las postulaciones no vas a recibir respuesta o te llegará un correo genérico de rechazo. Es lo estándar en la industria; no te lo tomes personal.
+* **Online Assessments (OAs):** Cuando una empresa te envíe un test en HackerRank o CodeSignal, tómalo como una práctica real bajo tiempo para medir tu nivel actual.
 
-- Leetcode Company Wise Problems: https://github.com/liquidslr/leetcode-company-wise-problems 
+## Behavioral
 
----
+No inviertas tiempo en entrevistas de comportamiento al inicio; prepáralas dos semanas antes de tener rondas programadas.
 
-## Applying (desde ya)
-La idea no es “aplica a 200 hoy”. Es estar **pendiente** y meter aplicaciones de forma constante.
-
-### Dónde aplicar
-- LinkedIn Jobs (principal).
-- Careers page de la empresa (también vale la pena cuando exista, especialmente si la vacante en LinkedIn se satura rápido).
-
-### Qué esperar (para no frustrarte)
-- En la gran mayoría de los casos, no obtendrás respuesta a tus aplicaciones, te van a ghostear.
-- Cuando llega un OA, es feedback real de tu nivel actual.
-- La urgencia real aparece cuando tienes un deadline (OA/entrevista). Eso te sube el ritmo naturalmente.
-
----
-****
-## Behavioral (cuando llegue el momento)
-No lo hagas tu prioridad #1 desde el día 0. Prepáralo cuando ya tengas entrevistas cercanas (ej. ~2 semanas), ya que esto es algo que puedes preparar en poco tiempo.
-
-### Qué preparar
-- 7–8 historias cortas con STAR (Situation, Task, Action, Result).
-- Temas: teamwork, conflicto, error/aprendizaje, liderazgo/logro (y variaciones).
-
-Recurso recomendado:
-- Matt Huang (behavioral): https://www.youtube.com/watch?v=WdyiUe7_3cA
-
----
+* **Formato STAR:** Estructura tus respuestas narrando **Situación**, **Tarea**, **Acción** y **Resultado**.
+* Prepara 6 a 8 anécdotas reales basadas en: trabajo en equipo, resolución de un desacuerdo técnico, manejo de un error de software y liderazgo en proyectos escolares o personales.
+* Guía recomendada: [Matt Huang - Behavioral Interviews](https://www.youtube.com/watch?v=WdyiUe7_3cA).
 
 ## FAQ
-### ¿Necesito estar 100% listo para aplicar?
-No. Casi nadie se siente listo. Aplicar temprano te da feedback y te crea urgencia real.
 
-### ¿LeetCode es lo que haré en el trabajo?
-No. Es una forma común de evaluación/filtro para empresas grandes, pero no es lo que harás en el trabajo.
+### ¿Tengo que esperar a estar 100% preparado para aplicar?
+No. Casi nadie se siente completamente listo. Aplicar temprano te expone al mercado real, te obliga a mejorar el CV y genera la urgencia necesaria para estudiar.
 
-### ¿Cuántos problemas tengo que hacer?
-Los que necesites para dominar patrones, no hay un número mágico. Mejor 30 bien entendidos (con reintentos) que 200 “copiados”.
+### ¿Importa mi promedio o venir de ITSON?
+No. A las empresas de tecnología globales no les importa tu promedio, kárdex ni el renombre de tu universidad. El filtro es técnico: si tu CV pasa el formato ATS y resuelves las entrevistas, la oferta es tuya.
 
-### ¿Qué hago si me trabo siempre?
-Reduce la fricción, es súper normal que no se te venga nada a la cabeza al inicio: intenta 15 min → solución → entender patrón → reintento en días.
+### ¿Qué pasa si me va mal en una entrevista o en un OA? ¿Me vetan?
+Para nada. No existen listas negras. Solo hay un periodo de espera (cooldown) de 6 a 12 meses según la empresa. En el siguiente ciclo de contratación puedes volver a aplicar desde cero sin penalización.
 
-### ¿Puedo empezar con videos directamente?
-Sí, especialmente al inicio. La meta es entender el patrón y luego codificar tú.
+### ¿Las entrevistas de LeetCode reflejan el trabajo del día a día?
+No. En el trabajo construyes arquitectura, pruebas y trabajas en equipo. LeetCode es simplemente una prueba estandarizada de filtro.
 
-### ¿Qué lenguaje elijo?
-Nuestra recomendación es Python, como mencionamos previamente otros lenguajes te quitarán espacio mental y tiempo valioso.
+### ¿Cuántos problemas tengo que resolver para estar listo?
+No hay una cifra fija. Es mucho mejor dominar 40 o 50 problemas comprendiendo bien el patrón, que memorizar 200 que no sabrás adaptar si te cambian un detalle.
 
-### ¿Projects personales vs proyectos de clase?
-Ambos sirven. Proyecto de clase bien terminado + mejorado + defendible suele ser suficiente para internship.
+### ¿Qué hago si me quedo en blanco frente a la pantalla?
+Aplica la regla de los 15 minutos: piensa activamente, si no hay progreso abre la solución, entiende el enfoque y vuelve a programarlo días después por tu cuenta.
 
-### ¿Y si mi inglés está “flojo”?
-Empieza speaking funcional en paralelo. No lo esperes a “terminar LeetCode”; se entrena por repetición. Consume contenido en inglés de preferencia.
+### ¿Sirven los proyectos escolares o tienen que ser personales?
+Los proyectos de clase sirven perfectamente. Lo importante no es si lo hiciste para una materia o por tu cuenta, sino que esté terminado, funcione y puedas defender las decisiones técnicas de cómo lo construiste.
 
-### ¿Cuándo hago mocks?
-Cuando ya domines fundamentals y puedas resolver fácil/medium con menos ayuda. Las mocks demasiado temprano no son tan útiles.
+### ¿Son indispensables los referrals?
+Ayudan a que un reclutador revise tu CV antes, pero no garantizan la oferta. Lo verdaderamente determinante sigue siendo tener un buen CV y pasar las evaluaciones técnicas.
 
-### ¿Necesito referrals?
-Ayudan, pero no son requisito. Lo más controlable sigue siendo CV + projects + fundamentals + aplicar.
+### ¿Un Summer Internship interrumpe mis clases en ITSON?
+Normalmente no. Duran 12 semanas (de finales de mayo a agosto), coincidiendo con las vacaciones de verano en ITSON. Terminas el intern y regresas a clases regulares en otoño.
 
----
+### ¿Necesito visa de trabajo para aplicar?
+No. La gran mayoría de estas vacantes son para sedes en México (CDMX, Guadalajara o remoto) con contrato local. Si la pasantía es en Estados Unidos, la empresa tramita y paga la visa correspondiente (J-1).
 
-## Contributing (PRs welcome)
-PRs bienvenidos, cualquier cosa que consideres que pueda ayudar a alguien más es bienvenida :).
+## Mentores y Soporte
+
+Este recurso y los talleres técnicos de preparación son coordinados por estudiantes y egresados para la comunidad de ITSON:
+
+* [Carlos Juven](https://www.linkedin.com/in/juvenr/)
+* [Roberto Garcia](https://www.linkedin.com/in/jrobertogarcia/)
+* [Sergio Covarrubias](https://www.linkedin.com/in/sergio-cov/)
+
+Para resolver dudas sobre ejercicios, pedir revisión de CV o consultar convocatorias, únete a la comunidad en nuestro servidor de [Discord](https://discord.gg/cKxpt9vXUw).
